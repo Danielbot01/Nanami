@@ -68,9 +68,9 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nNanami-Bot`;
-global.gt = 'Nanami-Bot ';
-global.mysticbot = 'Nanami-Bot ';
+global.wm2 = `${dia} ${fecha}\nTony-Bot`;
+global.gt = 'Tony-Bot ';
+global.mysticbot = 'Tony-Bot ';
 global.md = ' ';
 global.mysticbot = ' ';
 global.waitt = '*[ ⏳ ] Cargando...*';
