@@ -6,7 +6,7 @@ const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, com
   }
   const pesan = args.join` `;
   const oi = `*𝙼𝙴𝙽𝚂𝙰𝙹𝙴:* ${pesan}`;
-  let teks = `*🍁Activate te esta hablando Nanami Bot🍁*\n\n❏ ${oi}\n\n❏ *𝙴𝚃𝙸𝚀𝚄𝙴𝚃𝙰𝚂:*\n`;
+  let teks = `*🍁Activate te esta hablando Tony Bot🍁*\n\n❏ ${oi}\n\n❏ *𝙴𝚃𝙸𝚀𝚄𝙴𝚃𝙰𝚂:*\n`;
   for (const mem of participants) {
     teks += `🍁 @${mem.id.split('@')[0]}\n`;
   }
